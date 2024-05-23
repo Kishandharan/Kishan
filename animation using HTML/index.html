@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation using html</title>
+    <style>
+        .animation{
+            width: 5rem;
+            height: 5rem;
+            background-color: red;
+            border-radius: 6px;
+            animation: animate 4s infinite;
+        }
+
+        @keyframes animate {
+            0%{background-color: red;}
+            25%{background-color: orange;}
+            50%{background-color: orange;} 
+            75%{background-color: red;}                       
+        }
+    </style>
+</head>
+<body>
+    <div class="animation">       
+    </div>
+</body>
+</html>
